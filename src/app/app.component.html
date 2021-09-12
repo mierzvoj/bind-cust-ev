@@ -1,7 +1,7 @@
-<app-provide (saveMyInfo) = "onSave($event)">
+<app-provide (saveMyInfo)="onSave($event)">
 </app-provide>
 <app-display
   *ngFor="let serverElement of elements"
 
-  {{ [model]="elements" }}>
+      [model]="elements">
 </app-display>

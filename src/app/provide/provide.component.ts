@@ -6,7 +6,7 @@ import {Component, EventEmitter, OnInit, Output} from '@angular/core';
   styleUrls: ['./provide.component.css']
 })
 export class ProvideComponent implements OnInit {
-  @Output() saveMyInfo: EventEmitter<{}> = new EventEmitter<{name: string}>();
+  @Output() saveMyInfo: EventEmitter<{name: string}> = new EventEmitter<{name: string}>();
   newname='';
 
   infoAdded(){
